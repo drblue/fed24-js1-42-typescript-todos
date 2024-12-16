@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="https://fav.farm/📜" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>42-typescript-todos</title>
+</head>
+
+<body data-bs-theme="dark">
+	<div id="app" class="container py-2">
+		<h1>30-better-todos</h1>
+
+		<ul id="todolist" class="todos list-group mb-5"></ul>
+
+		<hr>
+
+		<h2 class="mb-3">Create a new todo</h2>
+		<form id="formCreateTodo">
+			<div class="mb-3">
+				<label for="inputNewTodoTitle" class="form-label">Title</label>
+				<input type="text" class="form-control" id="inputNewTodoTitle" placeholder="Buy milk">
+			</div>
+			<button type="submit" class="btn btn-success">Create</button>
+			<button type="reset" class="btn btn-warning">Reset</button>
+		</form>
+	</div>
+
+	<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
